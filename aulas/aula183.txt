@@ -1,0 +1,10 @@
+Prezado $nome,
+
+Informamos que sua fatura com vencimento em $data
+está com valor total de $valor.
+
+Em caso de dúvidas, entre em contato com a nossa
+empresa: $empresa, $telefone.
+
+Atenciosamente,
+Departamento Financeiro
