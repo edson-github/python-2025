@@ -10,7 +10,7 @@ This repository contains materials and resources for learning Python programming
 
 - Basic understanding of programming concepts
 - Python 3.x installed on your computer
-- A code editor (VS Code, PyCharm, or any preferred editor)
+- A code editor (Trae, VS Code, PyCharm, Cursor or any preferred editor)
 
 ## Course Structure
 
