@@ -48,6 +48,7 @@ lista_clientes = [
 
 ]
 
+# First write to the file
 with open(CAMINHO_CSV, 'w') as arquivo_csv:
     nome_colunas = lista_clientes[0].keys()
     escritor = csv.DictWriter(
@@ -59,6 +60,18 @@ with open(CAMINHO_CSV, 'w') as arquivo_csv:
     for cliente in lista_clientes:
         escritor.writerow(cliente)
 
+# Then read from the file in a separate operation
+with open(CAMINHO_CSV, 'r') as arquivo_csv:
+    leitor = csv.DictReader(arquivo_csv)
+    for i in leitor:
+        print(i)
+        lista_clientes.append(i)
+    print(lista_clientes)
+    print(len(lista_clientes))
+    print(lista_clientes[0])
+    print(lista_clientes[0]['Nome'])
+    print(lista_clientes[0]['Endereço'])
+    print(lista_clientes[0]['Telefone'])
 
     for cliente in lista_clientes:
         print(cliente)

@@ -12,6 +12,8 @@ with open(PATH_CSV, 'r') as arquivo:
     for linha in leitor_csv:
         print(linha['Nome'], linha['Idade'], linha['Profissão'])
 
+    
+
 
 
     
