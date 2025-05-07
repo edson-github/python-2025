@@ -2,23 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS Interactivity Example</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
-    </p>
-    <script>
-        function solution(str) {
-            let arr = str.split('');
-            let newArr = [];
-            for (let i = 0; i < arr.length; i++) {
-                if (arr[i] === arr[i].toUpperCase()) {
-                    newArr.push(' ');
-                    newArr.push(arr[i]);
-                }
-            }
-        }
+    <h1 id="title">Click the button!</h1>
+    <button id="changeButton">Change Text</button>
+
+    <script src="file.js"></script>
+</body>
+</html>
