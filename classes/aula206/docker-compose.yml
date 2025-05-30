@@ -13,7 +13,7 @@ services:
       - --collation-server=utf8mb4_unicode_ci
       - --innodb_force_recovery=0
     volumes:
-      - ./mysql_206:/var/lib/mysql
+      - ./mysql_206:/var/lib/mysql 
     ports:
       - 3306:3306
     environment:
